@@ -1,0 +1,156 @@
+  NHunspell.Resources.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v2.0.50727
+Assembly NHunspell, Version=1.2.5554.16953, Culture=neutral, PublicKeyToken=1ac793ea843b4366: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class NHunspell.Hunspell: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Byte[], Byte[], System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Byte[], Byte[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.String NativeDllPath 'get set' : 
+    Boolean IsDisposed 'get set' : 
+  Methods:
+    get_NativeDllPath(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_NativeDllPath(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsDisposed(): PrivateScope, Public, HideBySig, SpecialName
+    Add(String): PrivateScope, Public, HideBySig
+    AddWithAffix(String, String): PrivateScope, Public, HideBySig
+    Analyze(String): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Dispose(Boolean): PrivateScope, Public, HideBySig
+    Generate(String, String): PrivateScope, Public, HideBySig
+    Load(String, String): PrivateScope, Public, HideBySig
+    Load(String, String, String): PrivateScope, Public, HideBySig
+    Load(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    Load(Byte[], Byte[], String): PrivateScope, Public, HideBySig
+    Remove(String): PrivateScope, Public, HideBySig
+    Spell(String): PrivateScope, Public, HideBySig
+    Stem(String): PrivateScope, Public, HideBySig
+    Suggest(String): PrivateScope, Public, HideBySig
+Class NHunspell.Hyphen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Byte[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.String NativeDllPath 'get set' : 
+    Boolean IsDisposed 'get set' : 
+  Methods:
+    get_NativeDllPath(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_NativeDllPath(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsDisposed(): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Dispose(Boolean): PrivateScope, Public, HideBySig
+    Hyphenate(String): PrivateScope, Public, HideBySig
+    Load(String): PrivateScope, Public, HideBySig
+    Load(Byte[]): PrivateScope, Public, HideBySig
+Class NHunspell.HyphenResult: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, Byte[], System.String[], Int32[], Int32[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String HyphenatedWord 'get ' : 
+    Int32[] HyphenationCuts 'get ' : 
+    Byte[] HyphenationPoints 'get ' : 
+    Int32[] HyphenationPositions 'get ' : 
+    System.String[] HyphenationReplacements 'get ' : 
+  Methods:
+    get_HyphenatedWord(): PrivateScope, Public, HideBySig, SpecialName
+    get_HyphenationCuts(): PrivateScope, Public, HideBySig, SpecialName
+    get_HyphenationPoints(): PrivateScope, Public, HideBySig, SpecialName
+    get_HyphenationPositions(): PrivateScope, Public, HideBySig, SpecialName
+    get_HyphenationReplacements(): PrivateScope, Public, HideBySig, SpecialName
+Class NHunspell.LanguageConfig: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String HunspellAffFile 'get set' : 
+    System.String HunspellDictFile 'get set' : 
+    System.String HunspellKey 'get set' : 
+    System.String HyphenDictFile 'get set' : 
+    System.String LanguageCode 'get set' : 
+    System.String MyThesDatFile 'get set' : 
+    Int32 Processors 'get set' : 
+  Methods:
+    get_HunspellAffFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_HunspellAffFile(String): PrivateScope, Public, HideBySig, SpecialName
+    get_HunspellDictFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_HunspellDictFile(String): PrivateScope, Public, HideBySig, SpecialName
+    get_HunspellKey(): PrivateScope, Public, HideBySig, SpecialName
+    set_HunspellKey(String): PrivateScope, Public, HideBySig, SpecialName
+    get_HyphenDictFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_HyphenDictFile(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LanguageCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_LanguageCode(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MyThesDatFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_MyThesDatFile(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Processors(): PrivateScope, Public, HideBySig, SpecialName
+    set_Processors(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class NHunspell.SpellFactory: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(NHunspell.LanguageConfig): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Boolean IsDisposed 'get ' : 
+  Methods:
+    Add(String): PrivateScope, Public, HideBySig
+    AddWithAffix(String, String): PrivateScope, Public, HideBySig
+    Remove(String): PrivateScope, Public, HideBySig
+    get_IsDisposed(): PrivateScope, Public, HideBySig, SpecialName
+    Analyze(String): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Generate(String, String): PrivateScope, Public, HideBySig
+    Hyphenate(String): PrivateScope, Public, HideBySig
+    LookupSynonyms(String, Boolean): PrivateScope, Public, HideBySig
+    Spell(String): PrivateScope, Public, HideBySig
+    Stem(String): PrivateScope, Public, HideBySig
+    Suggest(String): PrivateScope, Public, HideBySig
+Class NHunspell.SpellEngine: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Boolean IsDisposed 'get ' : 
+    Int32 Processors 'get set' : 
+    NHunspell.SpellFactory Item [System.String] 'get ' : 
+  Methods:
+    get_IsDisposed(): PrivateScope, Public, HideBySig, SpecialName
+    get_Processors(): PrivateScope, Public, HideBySig, SpecialName
+    set_Processors(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    AddLanguage(LanguageConfig): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class NHunspell.MyThes: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Byte[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+  Methods:
+    GetEncoding(String): PrivateScope, Public, Static, HideBySig
+    Load(Byte[]): PrivateScope, Public, HideBySig
+    Load(String): PrivateScope, Public, HideBySig
+    Lookup(String): PrivateScope, Public, HideBySig
+    Lookup(String, Hunspell): PrivateScope, Public, HideBySig
+Class NHunspell.ThesMeaning: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.Collections.Generic.List`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Description 'get ' : 
+    System.Collections.Generic.List`1[System.String] Synonyms 'get ' : 
+  Methods:
+    get_Description(): PrivateScope, Public, HideBySig, SpecialName
+    get_Synonyms(): PrivateScope, Public, HideBySig, SpecialName
+Class NHunspell.ThesResult: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Collections.Generic.List`1[NHunspell.ThesMeaning], Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsGenerated 'get ' : 
+    System.Collections.Generic.List`1[NHunspell.ThesMeaning] Meanings 'get ' : 
+  Methods:
+    get_IsGenerated(): PrivateScope, Public, HideBySig, SpecialName
+    get_Meanings(): PrivateScope, Public, HideBySig, SpecialName
+    GetSynonyms(): PrivateScope, Public, HideBySig

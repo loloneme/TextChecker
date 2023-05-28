@@ -1,0 +1,8 @@
+﻿  MyForm.cpp
+C:\Users\Sombrero\source\repos\TextChecker\TextChecker\MyForm.h(323,22): warning C4101: e: неиспользованная локальная переменная
+C:\Users\Sombrero\source\repos\TextChecker\TextChecker\MyForm.h(374,22): warning C4101: e: неиспользованная локальная переменная
+C:\Users\Sombrero\source\repos\TextChecker\TextChecker\MyForm.h(398,21): warning C4101: e: неиспользованная локальная переменная
+  MyForm1.cpp
+  Создание кода...
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  TextChecker.vcxproj -> C:\Users\Sombrero\source\repos\TextChecker\x64\Debug\TextChecker.exe

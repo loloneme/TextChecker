@@ -1,0 +1,6 @@
+C:\Users\Sombrero\source\repos\TextChecker\TextChecker\x64\Debug\TextChecker.vcxproj.AssemblyReference.cache
+C:\Users\Sombrero\source\repos\TextChecker\TextChecker\x64\Debug\TextChecker.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Sombrero\source\repos\TextChecker\TextChecker\x64\Debug\TextChecker.MyForm.resources
+C:\Users\Sombrero\source\repos\TextChecker\TextChecker\x64\Debug\TextChecker.MyForm1.resources
+C:\Users\Sombrero\source\repos\TextChecker\TextChecker\x64\Debug\TextChecker.vcxproj.GenerateResource.cache
+C:\Users\Sombrero\source\repos\TextChecker\TextChecker\x64\Debug\TextChecker.vcxproj.CopyComplete
